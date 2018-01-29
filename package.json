@@ -1,0 +1,40 @@
+{
+  "name": "katycresner",
+  "version": "1.0.0",
+  "description": "Katy Cresner Event Website",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "jquery": "^3.3.1",
+    "matchdep": "^2.0.0",
+    "nodemailer": "^4.4.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickcresner/katycresner.git"
+  },
+  "author": "Nick Cresner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickcresner/katycresner/issues"
+  },
+  "homepage": "https://github.com/nickcresner/katycresner#readme",
+  "keywords": [
+    "Weddings",
+    "Events"
+  ]
+}
