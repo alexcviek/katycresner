@@ -289,12 +289,12 @@ button {
   background-color: #FFF1EA;
   top: -422px;
   right: -300px;
-    z-index: 1;
+    z-index: -1;
 }
 
 /* CONTACT FORM STUFF */
 
-/* .contact-form-heading {
+.contact-form-heading {
   text-align: center;
   font-family: 'Rozha One', serif;
   margin-top: 70px;
@@ -364,7 +364,7 @@ footer {
 /* carousel images */
 
 .contact-form-container {
-  width: 75%;
   margin: 0 auto;
   margin-bottom: 64px;
-} */
+  width: 75%;
+}
