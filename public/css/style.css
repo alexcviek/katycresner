@@ -210,8 +210,6 @@ a:hover{
 
 .carousel-container{
   margin-top: 80px;
-  clear: both;
-  overflow: hidden;
 }
 
 .container {
@@ -254,7 +252,6 @@ height: 277px;
 }
 
 button {
-  position: absolute;
   z-index: 1000;
 }
 
@@ -319,6 +316,7 @@ button {
   width: 300px;
   margin-top: 50px;
   height:50px;
+  background: transparent;
 }
 
 #date {
@@ -327,6 +325,7 @@ button {
   width: 300px;
   margin-top: 50px;
   height:50px;
+  background: transparent;
 }
 
 #email {
@@ -355,6 +354,16 @@ button {
 
 .form-row {
   margin-top: 20px;
+}
+
+.submit-button {
+  border: 2px solid #FFF1EA;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #4E5476;
+  padding: 5px 15px;
+  background: transparent;
+  margin: 0 20% 20% 20%;
 }
 
 footer {
