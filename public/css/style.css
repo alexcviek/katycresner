@@ -210,8 +210,6 @@ a:hover{
 
 .carousel-container{
   margin-top: 80px;
-  clear: both;
-  overflow: hidden;
 }
 
 .container {
@@ -254,7 +252,6 @@ height: 277px;
 }
 
 button {
-  position: absolute;
   z-index: 1000;
 }
 
@@ -289,12 +286,12 @@ button {
   background-color: #FFF1EA;
   top: -422px;
   right: -300px;
-    z-index: 1;
+    z-index: -1;
 }
 
 /* CONTACT FORM STUFF */
 
-/* .contact-form-heading {
+.contact-form-heading {
   text-align: center;
   font-family: 'Rozha One', serif;
   margin-top: 70px;
@@ -319,6 +316,7 @@ button {
   width: 300px;
   margin-top: 50px;
   height:50px;
+  background: transparent;
 }
 
 #date {
@@ -327,6 +325,7 @@ button {
   width: 300px;
   margin-top: 50px;
   height:50px;
+  background: transparent;
 }
 
 #email {
@@ -357,6 +356,16 @@ button {
   margin-top: 20px;
 }
 
+.submit-button {
+  border: 2px solid #FFF1EA;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #4E5476;
+  padding: 5px 15px;
+  background: transparent;
+  margin: 0 20% 20% 20%;
+}
+
 footer {
   height: 50px;
   background-color: #FFF1EA
@@ -364,7 +373,7 @@ footer {
 /* carousel images */
 
 .contact-form-container {
-  width: 75%;
   margin: 0 auto;
   margin-bottom: 64px;
-} */
+  width: 75%;
+}
