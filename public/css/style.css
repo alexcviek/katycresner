@@ -66,6 +66,11 @@ li:hover  hr{
   animation: linegrow 0.3s;
 }
 
+.designing-content {
+  margin: 0 40px 0 40px;
+  text-align: justify;
+}
+
 @keyframes linegrow {
   0% {
     transform: scale(0.1);
@@ -90,6 +95,7 @@ a:hover{
 
 .div-margin-top{
   margin-top: 64px;
+  margin-left: 50px;
 }
 /* HEADDER BLOCK STYLES */
 
@@ -113,7 +119,7 @@ a:hover{
 }
 
 .header-title{
-  margin-top: 30vh;
+  margin: 20vh auto;
   color: white;
   letter-spacing: 1.2px;
 }
@@ -128,6 +134,7 @@ a:hover{
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   bottom: 40px;
+  margin: 0 0 0 60px;
 }
 
 .header-social-links a{
@@ -154,6 +161,7 @@ a:hover{
 .scroll-for-more {
   position: absolute;
   bottom: 35px;
+  right: 0px;
 }
 
 
@@ -210,6 +218,7 @@ a:hover{
 
 .carousel-container{
   margin-top: 80px;
+  max-height: 650px;
 }
 
 .container {
@@ -376,4 +385,28 @@ footer {
   margin: 0 auto;
   margin-bottom: 64px;
   width: 75%;
+}
+
+@media only screen and (max-width: 1070px) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .scroll-for-more {
+    bottom: 15px;
+  }
+  .header-social-links {
+    bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .header-title {
+    margin: 10vh auto;
+  }
+  .header-social-links li {
+    padding-left: 25px;
+  }
 }
