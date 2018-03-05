@@ -24,7 +24,7 @@ app.get('/', (req,res) => {
   res.render('index');
 });
 
-app.post('/', (req, res) => {
+app.post('/post', (req, res) => {
   const output = `
     <h1>O HAI</h1>
     <p>You have a new contact request</p>
@@ -43,8 +43,8 @@ app.post('/', (req, res) => {
     port: 587,
     secure: false,
     auth: {
-      user: 'MY@EMAIL.COM',
-      pass: 'MYPASS'
+      user: 'katy@email.net',
+      pass: 'katys password'
     },
     tls: {
       rejectUnauthorized: false
@@ -52,8 +52,8 @@ app.post('/', (req, res) => {
   });
 
   const mailOptions = {
-    from: '"KatyCresner.com Contact" <nickcresner@gmail.com>',
-    to: 'a.i.cwiek@gmail.com',
+    from: '"KatyCresner.com Contact" <katy@cresner.com>',
+    to: 'email@mail.com',
     subject: 'Hello ✔',
     html: output
   };
@@ -62,6 +62,7 @@ app.post('/', (req, res) => {
     if (error) {
       return console.log(error);
     }
-    // res.render('index');
+    res.redirect('/');
+    console.log('message sent');
   });
 });
