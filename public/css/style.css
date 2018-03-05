@@ -402,10 +402,16 @@ footer {
   }
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 577px) {
+  .header-row {
+    margin: 0 auto;
+  }
   .header-title {
     margin: 10vh auto;
   }
+}
+
+@media only screen and (max-width: 490px) {
   .header-social-links li {
     padding-left: 25px;
   }
